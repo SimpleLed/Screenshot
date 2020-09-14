@@ -131,7 +131,7 @@ namespace Source.Screenshot
             Bitmap prop;
 
             Assembly myAssembly = Assembly.GetExecutingAssembly();
-            using (Stream myStream = myAssembly.GetManifestResourceStream("ScreenShotSource.monitor.png"))
+            using (Stream myStream = myAssembly.GetManifestResourceStream("Source.Screenshot.monitor.png"))
             {
                 prop = (Bitmap)Image.FromStream(myStream);
             }
