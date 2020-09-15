@@ -408,7 +408,7 @@ namespace Source.Screenshot
                 SupportsPull = true,
                 SupportsPush = false,
                 IsSource = true,
-                Id = Guid.Parse("99440d02-8ca3-4e35-a9a3-88b024cc0e2d"),
+                Id = Guid.Parse("99440d02-8ca3-4e35-ffe3-88b024cc0e2d"),
                 Author = "mad ninja",
                 CurrentVersion = new ReleaseNumber(1,0,0,0),
                 Blurb = "Turn your primary screen into a source for your RGB",
