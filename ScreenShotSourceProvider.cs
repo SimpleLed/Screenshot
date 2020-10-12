@@ -410,7 +410,7 @@ namespace Source.Screenshot
                 IsSource = true,
                 Id = Guid.Parse("99440d02-8ca3-4e35-ffe3-88b024cc0e2d"),
                 Author = "mad ninja",
-                CurrentVersion = new ReleaseNumber(1,0,0,3),
+                CurrentVersion = new ReleaseNumber(1,0,0,4),
                 Blurb = "Turn your primary screen into a source for your RGB",
                 GitHubLink = "https://github.com/SimpleLed/Source.Screenshot",
                 IsPublicRelease = false,
@@ -427,5 +427,7 @@ namespace Source.Screenshot
         {
             return "Screenshot Source";
         }
+
+        public event EventHandler DeviceRescanRequired;
     }
 }
